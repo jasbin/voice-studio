@@ -1,0 +1,21 @@
+# Python environments made by ./setup.sh
+.venv*/
+__pycache__/
+*.pyc
+
+# Your data: saved voices, mic recordings, generated takes and preset previews.
+# voices/ and recordings/ hold real voice samples that can be used to clone a voice: never commit them.
+# The app recreates the folders on start.
+data/
+
+# HTTPS certificate for ./run.sh --lan (key.pem is a private key)
+certs/
+
+# Gradio's local cache
+.gradio/
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
+*.code-workspace

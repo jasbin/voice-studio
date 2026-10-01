@@ -1,0 +1,5 @@
+qwen-tts==0.1.1
+# The UI styling hooks into Gradio internals (ui_theme.py): upgrade deliberately and re-check the look.
+gradio==6.17.3
+soundfile
+numpy
